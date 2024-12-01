@@ -6,6 +6,17 @@ The project is centered around keeping track of the inventory of your fridge (pe
 
 
 
+## Features
+
+
+### Feature 1: Current Inventory
+
+- Current inventory stores your ingredient/item name
+- Current inventory stores your preferred measurement type (Weight, Volume, Count)
+- Current inventory stores your quantity of the item in the unit you prefer based on measurement type
+- Current inventory stores the category of your food based on food pyramid (protein, vegetables, dairy, grain) for filtering purposes
+- Current inventory optionally stores the expiration date of your item
+
 
 
 

@@ -29,13 +29,14 @@ export function SearchBar() {
                     "& .MuiInputBase-root": {
                         margin: 0
                     },
-                    marginTop: '1.75em',
+                    marginTop: '2em',
                     width: '100%',
                     maxWidth: '500px'
 
                 }}
                 slotProps={{
                     input : {
+                        placeholder: "Search for items, recipes...",
                         startAdornment: (
                             <InputAdornment position="start">
                             <SearchIcon />
