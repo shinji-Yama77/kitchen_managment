@@ -1,0 +1,59 @@
+section {
+    margin-top: 1.5em;
+}
+
+
+
+
+.inventory-table {
+    margin-top: 1em;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+ 
+
+th, 
+td {
+    padding: 1em;
+    padding-right: 7.5em;
+}
+
+th {
+    background: hsl(0 0% 0% / 0.5);
+}
+
+tr:nth-of-type(2n) {
+    background: hsl(0 0% 0% / 0.1);
+}
+
+
+.inventory-div {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+@media (max-width: 1300px) {
+    th {
+        display: none;
+    }
+    td {
+        display: block;
+        padding: 0.5em 1em;
+    }
+
+    td:first-child {
+        padding-top: 1.5em;
+    }
+
+    td:last-child {
+        padding-bottom: 1.5em;
+    }
+    
+    td::before {
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+    }
+}
+
+

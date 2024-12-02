@@ -17,6 +17,10 @@ The project is centered around keeping track of the inventory of your fridge (pe
 - Current inventory stores the category of your food based on food pyramid (protein, vegetables, dairy, grain) for filtering purposes
 - Current inventory optionally stores the expiration date of your item
 
+**Key points**
 
+- Inventory has select options for the unit based on what measurement type you select for the item to simplify conversions
+
+- Same measurement type allows for less conversion, less errors since cross measurement type calculation requires density for the specific food
 
 
